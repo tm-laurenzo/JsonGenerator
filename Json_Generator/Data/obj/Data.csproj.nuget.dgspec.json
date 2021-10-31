@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Json_Generator\\Json_Generator.csproj": {}
+    "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Json_Generator\\Json_Generator.csproj": {
+    "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Json_Generator\\Json_Generator.csproj",
-        "projectName": "Json_Generator",
-        "projectPath": "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Json_Generator\\Json_Generator.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Json_Generator\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\JointProject\\JsonGenerator\\Json_Generator\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -50,9 +56,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
